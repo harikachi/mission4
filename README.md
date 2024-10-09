@@ -1,4 +1,8 @@
+**Description**
+
 This repo is created to build an Insurance Bot Application using Google Gemini API, using react front end and Node as backend.
+
+**Usage**
 
 There will be one .env file under server app.
 
