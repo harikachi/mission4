@@ -1,0 +1,62 @@
+/* Center the form container using Flexbox */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4;
+}
+
+/* Style for the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 5px solid #009688; /* Border around the form */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #fff; /* Background color for the form */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  width: 500px; /* Set the form width */
+  height: 500px; /* Set the form height */
+}
+
+/* Style for form inputs */
+.form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  width: 70%; /* Full width */
+}
+
+/* Style for the button */
+.form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Wrapper for the form and title */
+.form-wrapper {
+  text-align: center;
+}
+
+/* Style for the h1 title */
+.form-title {
+  font-size: 24px;
+  margin-bottom: 0; /* Remove default margin */
+}
+
+/* Style for text input */
+.text-input {
+  flex: 1; /* Take up available space */
+  padding: 8px;
+  font-size: 20px;
+  margin-right: 10px; /* Space between input and button */
+}
+
+/* Style for submit button */
+.submit-button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
